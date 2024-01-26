@@ -2,6 +2,7 @@
 Backend development refers to the server-side of web development, where the server, database, and application logic reside. It involves building and maintaining the technology that powers the server-side of a web application or a software system. The backend is responsible for handling data storage, business logic, user authentication, server-side processing, and other functionalities that are not directly visible to users but crucial for the proper functioning of an application.
 
 ![Repo size](https://img.shields.io/github/repo-size/sakhi-4096/alx-backend)
+![Pep8 style](https://img.shields.io/badge/PEP8-style%20guide-purple?style=round-square)
 ![Repo License](https://img.shields.io/github/license/sakhi-4096/alx-backend.svg)
 ![Latest commit](https://img.shields.io/github/last-commit/sakhi-4096/alx-backend/main?style=round-square)
 
