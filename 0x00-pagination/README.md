@@ -1,4 +1,4 @@
-# Redis 
+# Pagination 
 Pagination is a technique used in web development and software applications to divide a large set of data into smaller, manageable chunks or pages.
 
 ![Paginayion](https://miro.medium.com/v2/resize:fit:640/format:webp/1*D9K_aEWo9MDx7osLKT1Cxw.jpeg)
