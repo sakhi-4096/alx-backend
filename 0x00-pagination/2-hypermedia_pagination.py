@@ -77,8 +77,10 @@ class Server:
         data = self.get_page(page, page_size)
         total_rows = len(self.dataset())
         prev_page = page - 1 if page > 1 else None
-        next_page = page + 1 if self.index_range(page, page_size)[1] < total_rows else None
-        total_pages = total_rows // page_size + (1 if total_rows % page_size != 0 else 0)
+        next_page = (page + 1 if self.index_range(page, page_size)[1]
+                     < total_rows else None)
+        total_pages = (total_rows // page_size +
+                       (1 if total_rows % page_size != 0 else 0))
         return {
             'page_size': len(data),
             'page': page,
