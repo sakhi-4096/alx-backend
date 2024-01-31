@@ -3,6 +3,7 @@
 from base_caching import BaseCaching
 from typing import Optional, Any, Dict
 
+
 class BasicCache(BaseCaching):
     """
     A basic cache implementation class.
