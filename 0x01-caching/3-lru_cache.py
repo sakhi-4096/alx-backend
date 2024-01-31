@@ -45,7 +45,8 @@ class LRUCache(BaseCaching):
         Args:
             key (str): The key associated with the item to be retrieved.
         Returns:
-            Optional[str]: The item corresponding to the key if found, otherwise None.
+            Optional[str]: The item corresponding to the key if found,
+                           otherwise None.
         """
         with self.__rlock:
             value = self.cache_data.get(key, None)
@@ -60,8 +61,8 @@ class LRUCache(BaseCaching):
         Args:
             key_in (str): The key of the new item being added.
         Returns:
-            Optional[str]: The key of the discarded item if the cache is at max size,
-                           otherwise None.
+            Optional[str]: The key of the discarded item if the cache is at
+                           max size, otherwise None.
         """
         key_out = None
         with self.__rlock:
